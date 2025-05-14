@@ -6,11 +6,13 @@ a {
   text-decoration: none;
 }
 body {
-  border: 1px solid red;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
+}
+ul{
+  padding: 0;
 }
 h1,
 h2,
@@ -53,8 +55,8 @@ span {
   padding-right: 15px;
   background-color: yellow;
   color: blue;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
 
 h2 {
@@ -73,8 +75,11 @@ div {
   margin-right: 10px;
 }
 
+header{
+  margin-bottom: 10px;
+}
+
 #us {
-  margin-top: 20px;
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 5px;
@@ -141,8 +146,6 @@ div {
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), 4px 4px 10px rgba(0, 0, 0, 0.05),
-    6px 6px 15px rgba(0, 0, 0, 0.03);
 }
 
 footer {
@@ -203,6 +206,10 @@ img {
 
 /* Повернись живим */
 
+.list2{
+  margin-left: 40px;
+}
+
 .list2 li {
   list-style: circle;
 }
@@ -213,7 +220,10 @@ img {
 
 .list2-img {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+}
+.list2-img li{
+  margin: 0;
 }
 
 .title2 {
